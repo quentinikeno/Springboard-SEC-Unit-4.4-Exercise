@@ -1,0 +1,40 @@
+body {
+	background-color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.25rem;
+}
+
+hr {
+	margin: 1rem;
+}
+
+button {
+	background: transparent;
+	cursor: pointer;
+	font-weight: bold;
+	color: slateblue;
+	padding: 0.25rem;
+	border: 1px solid slateblue;
+	border-radius: 7px;
+	margin-left: 0.5rem;
+}
+
+li {
+	margin: 0.25rem;
+	padding: 0.25rem;
+	cursor: pointer;
+}
+
+.done {
+	text-decoration: line-through;
+}
+
+#header {
+	text-align: center;
+}
+
+#newTodo {
+	padding: 0.25rem;
+	border: 1px solid slategray;
+	border-radius: 7px;
+}
